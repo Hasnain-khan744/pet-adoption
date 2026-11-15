@@ -23,11 +23,11 @@ p {
 }
 
 img {
-    border: 3px  white;
+    border: 3px solid white;
 }
 
 table {
-    width: 500px;
+    width: 800px;
     margin: auto;
     border-collapse: collapse;
     background-color: rgb(179, 166, 222);
@@ -45,4 +45,12 @@ button {
     padding: 12px;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+.pet-photo {
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 8px;
 }
